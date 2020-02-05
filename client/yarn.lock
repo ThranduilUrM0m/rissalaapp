@@ -7881,7 +7881,7 @@ node-releases@^1.1.47:
   dependencies:
     semver "^6.3.0"
 
-node-sass@^4.13.1:
+node-sass@*:
   version "4.13.1"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.13.1.tgz#9db5689696bb2eec2c32b98bfea4c7a2e992d0a3"
   integrity sha512-TTWFx+ZhyDx1Biiez2nB0L3YrCZ/8oHagaDalbuBSlqXgUPsdkUSzJsVxeDO9LtPB49+Fh3WQl3slABo6AotNw==
@@ -9650,7 +9650,7 @@ react-error-overlay@^6.0.5:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.5.tgz#55d59c2a3810e8b41922e0b4e5f85dcf239bd533"
   integrity sha512-+DMR2k5c6BqMDSMF8hLH0vYKtKTeikiFW+fj0LClN+XZg4N9b8QUAdHC62CGWNLTi/gnuuemNcNcTFrCvK1f+A==
 
-react-full-page@^0.1.7:
+react-full-page@*:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/react-full-page/-/react-full-page-0.1.7.tgz#bfe8c04c07c2668d70f7399d6641aedae81baa8e"
   integrity sha512-KdLAmNRg2Um5l00gKhI5kCD4I5ZnmG6lLmO7EIgwwLxKB17USluiToE7/m9E+rmnzkSVqcKppLE6ZBcfJTRzqg==
@@ -9665,7 +9665,7 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-live-clock@^4.0.3:
+react-live-clock@*:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/react-live-clock/-/react-live-clock-4.0.3.tgz#8221c17ee35c4d8e8b79b51f945c26104dad1edd"
   integrity sha512-chBcOwEU9C9R7OjAe3ABj0UQ/mrxMRjXDZky/OSNrVd4EJCYZN1gQx9hRfYz9ovbtE3VuHuVvilwlsucxEojgQ==
