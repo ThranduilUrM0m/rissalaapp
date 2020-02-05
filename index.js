@@ -24,7 +24,7 @@ const app = express();
 
 mongoose.Promise = global.Promise;
 mongoose.set('useFindAndModify', false);
-mongoose.connect(process.env.MONGODB_URI || `mongodb://localhost:27017/node-react-starter`);
+mongoose.connect(process.env.MONGODB_URI || `mongodb://localhost:27017/rissala_app`);
 mongoose.set('debug', true);
 
 app.use(bodyParser.urlencoded({ extended: true, limit: '10mb' }));
