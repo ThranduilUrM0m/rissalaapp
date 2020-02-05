@@ -16,8 +16,15 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "*",
+    "cors": "*",
+    "errorhandler": "*",
     "express": "*",
-    "mongoose": "*"
+    "express-session": "*",
+    "jwt-simple": "*",
+    "mongoose": "*",
+    "morgan": "*",
+    "nodemailer": "*",
+    "password-hash": "*"
   },
   "devDependencies": {
     "concurrently": "*",
