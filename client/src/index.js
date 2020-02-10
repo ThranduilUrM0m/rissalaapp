@@ -8,8 +8,7 @@ import {
     Route,
     Link,
     Switch
-  } from 'react-router-dom'
-  
+} from 'react-router-dom';
 import App from './components/App/App';
 import NotFound from './components/App/NotFound';
 import Home from './components/Home/Home';
