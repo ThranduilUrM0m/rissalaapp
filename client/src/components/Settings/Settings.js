@@ -6,7 +6,6 @@ import { connect } from 'react-redux';
 import { FullPage, Slide } from 'react-full-page';
 import { Link } from 'react-router-dom';
 import 'whatwg-fetch';
-import { pagination } from 'paginationjs';
 import Fingerprint from 'fingerprintjs';
 import Calendar from 'rc-calendar';
 import API from '../../utils/API';

@@ -5,7 +5,6 @@ import { connect } from 'react-redux';
 import { FullPage, Slide } from 'react-full-page';
 import { Link } from 'react-router-dom';
 import 'whatwg-fetch';
-import { pagination } from 'paginationjs';
 import Fingerprint from 'fingerprintjs';
 import Footer from '../Footer/Footer';
 import $ from 'jquery';
