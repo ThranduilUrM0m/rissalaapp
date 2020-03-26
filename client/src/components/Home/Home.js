@@ -28,7 +28,7 @@ class Home extends React.Component {
         this._handleMouseMove();
         const {onLoad} = this.props;
         const self = this;
-        axios('http://localhost:8000/api/articles')
+        axios('/api/articles')
         .then(function (response) {
             // handle success
             onLoad(response.data);

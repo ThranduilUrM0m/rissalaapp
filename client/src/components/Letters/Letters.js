@@ -36,7 +36,7 @@ class Letters extends React.Component {
     componentDidMount() {
         const {onLoad} = this.props;
         const self = this;
-        axios('http://localhost:8000/api/letters')
+        axios('/api/letters')
         .then(function (response) {
             // handle success
             onLoad(response.data);
@@ -80,7 +80,7 @@ class Letters extends React.Component {
             const { _from, _to, _body } = this.state;
             const self = this;
             if(!letterToEdit) {
-                return axios.post('http://localhost:8000/api/letters', {
+                return axios.post('/api/letters', {
                     _from,
                     _to,
                     _body,
@@ -102,7 +102,7 @@ class Letters extends React.Component {
                         })
                     });
             } else {
-                return axios.patch(`http://localhost:8000/api/letters/${letterToEdit._id}`, {
+                return axios.patch(`/api/letters/${letterToEdit._id}`, {
                     _from,
                     _to,
                     _body,
