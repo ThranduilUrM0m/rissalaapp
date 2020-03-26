@@ -230,7 +230,7 @@ class Dashboard extends React.Component {
         this._handleSteps('_student_box');
         this._handleSteps('_course_box');
 
-        $('input.datepicker').datepicker({
+        /* $('input.datepicker').datepicker({
             dateFormat: 'yy-mm-dd',
             showButtonPanel: true,
             changeMonth: true,
@@ -283,7 +283,7 @@ class Dashboard extends React.Component {
             changeYear: true,
             defaultDate: +0,
             showAnim: "fold"
-        });
+        }); */
 
         document.getElementById('dashboard_page').parentElement.style.height = 'initial';
     }
